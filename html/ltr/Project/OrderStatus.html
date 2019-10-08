@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description"
+        content="Vuesax admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Vuesax admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="PIXINVENT">
+    <title>ตรวจสอบรายการอาหาร</title>
+    <link rel="apple-touch-icon" href="../../../app-assets/images/ico/apple-icon-120.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../app-assets/images/Project/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="../../../app-assets/vendors/css/forms/spinner/jquery.bootstrap-touchspin.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/extensions/toastr.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/colors/palette-gradient.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/pages/app-ecommerce-shop.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/forms/wizard.css">
+    <link rel="stylesheet" type="text/css" href="../../../app-assets/css/plugins/extensions/toastr.css">
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu-modern 2-columns ecommerce-application navbar-floating footer-static  "
+    data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
+
+    <!-- BEGIN: Main Menu-->
+    <div class="main-menu menu-fixed menu-light menu-accordion menu-shadow" data-scroll-to-active="true">
+        <div class="navbar-header">
+            <ul class="nav navbar-nav flex-row">
+                <li class="nav-item mr-auto"><a class="navbar-brand"
+                        href="../../../html/ltr/vertical-collapsed-menu-template/index.html">
+                        <div class="brand-logo"></div>
+                        <p class="brand-text mb-0" style="font-size: 0.93rem">ระบบจัดการร้านอาหาร</p>
+                    </a></li>
+                <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                            class="feather icon-x d-block d-xl-none font-medium-4 primary toggle-icon"></i><i
+                            class="toggle-icon feather icon-disc font-medium-4 d-none d-xl-block collapse-toggle-icon primary"
+                            data-ticon="icon-disc"></i></a></li>
+            </ul>
+        </div>
+        <div class="shadow-bottom"></div>
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+
+                    <li class=" navigation-header"><span>สำหรับผู้จัดการ</span>
+                    </li>
+                    <li class=" nav-item"><a href="ManageEmployee.html"><i class="feather icon-users"></i><span
+                                class="menu-title" data-i18n="Email">จัดการพนักงาน</span></a>
+                    </li>
+                    <li class=" nav-item"><a href="ManageMenu.html"><i class="feather icon-book"></i><span
+                                class="menu-title" data-i18n="Chat">จัดการรายการอาหาร</span></a>
+                    </li>
+                    <li class=" nav-item"><a href="ManageTable.html"><i class="feather icon-layers"></i><span
+                                class="menu-title" data-i18n="Todo">จัดการโต๊ะ</span></a>
+                    </li>
+                    <li class=" nav-item"><a href="app-calender.html"><i class="feather icon-printer"></i><span
+                                class="menu-title" data-i18n="Calender">ดูประวัติการขาย</span></a>
+                    </li>
+                    <li class=" navigation-header"><span>สำหรับผู้จัดการและพนักงาน</span>
+                    </li>
+                    <li class=" nav-item"><a href="OrderTable.html"><i class="feather icon-bell"></i><span
+                                class="menu-title" data-i18n="Chat">บริการลูกค้า</span></a>
+                    </li>
+                    <li class=" navigation-header"><span>สำหรับผู้จัดการและครัว</span>
+                    </li>
+                    <li class=" nav-item"><a href="Kitchen.html"><i class="feather icon-inbox"></i><span class="menu-title"
+                                data-i18n="Email">รายการอาหารที่ได้รับ</span></a>
+                    </li>
+                    <li class=" nav-item"><a href="KitchenHistory.html"><i class="feather icon-clipboard"></i><span
+                                class="menu-title" data-i18n="Email">รายการอาหาร</span></a>
+                    </li>
+                    <li class=" navigation-header"><span>สำหรับผู้จัดการและแคชเชียร์</span>
+                    </li>
+                    <li class=" nav-item"><a href="Cashier.html"><i class="feather icon-credit-card"></i><span
+                                class="menu-title" data-i18n="Email">ชำระเงิน</span></a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <!-- END: Main Menu-->
+
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+
+        <!-- BEGIN: Header-->
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu floating-nav navbar-light navbar-shadow">
+            <div class="navbar-wrapper">
+                <div class="navbar-container content">
+                    <div class="navbar-collapse" id="navbar-mobile">
+                        <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item mobile-menu d-xl-none mr-auto"><a
+                                        class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i
+                                            class="ficon feather icon-menu"></i></a></li>
+                            </ul>
+                            <ul class="nav navbar-nav bookmark-icons">
+
+                                <li class="nav-item d-none d-lg-block" style="font-size: 20px"><i
+                                        class="ficon feather icon-check-circle"></i> ตรวจสอบรายการอาหาร</li>
+                            </ul>
+                            <ul class="nav navbar-nav">
+                                <div class="bookmark-input search-input">
+                                    <div class="bookmark-input-icon"><i class="feather icon-search primary"></i></div>
+                                    <input class="form-control input" type="text" placeholder="Explore Vuesax..."
+                                        tabindex="0" data-search="template-list" />
+                                    <ul class="search-list"></ul>
+                                </div>
+
+                            </ul>
+                        </div>
+                        <ul class="nav navbar-nav float-right">
+                            <li class="nav-item nav-search"><a class="nav-link nav-link-search"><i
+                                        class="ficon feather icon-search"></i></a>
+                                <div class="search-input">
+                                    <div class="search-input-icon"><i class="feather icon-search primary"></i></div>
+                                    <input class="input" type="text" placeholder="ค้นหา..." tabindex="-1"
+                                        data-search="template-list" />
+                                    <div class="search-input-close"><i class="feather icon-x"></i></div>
+                                    <ul class="search-list"></ul>
+
+                                </div>
+
+                            <li class="dropdown dropdown-user nav-item"><a
+                                    class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                                    <div class="user-nav d-sm-flex d-none"><span
+                                            class="user-name text-bold-600">ชื่อ-สกุล พนักงาน</span><span
+                                            class="user-status">ตำแหน่ง</span></div>
+                                    <span><img class="round" src="../../../app-assets/images/Project/profile.png"
+                                            alt="avatar" height="40" width="40" /></span>
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+
+                                    <a class="dropdown-item" href="Login.html"><i class="feather icon-power"></i>
+                                        ออกจากระบบ</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- END: Header-->
+
+        <div class="content-wrapper">
+            <div class="content-header row">
+                <div class="content-header-left col-md-9 col-12 mb-2">
+                    <div class="row breadcrumbs-top">
+                        <div class="col-12">
+                            <h2 class="content-header-title float-left mb-0">โต๊ะ N</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="content-body ">
+                <a href="OrderTable.html" class="btn btn-primary feather icon-arrow-left float-right"
+                    > ย้อนกลับ</a>
+                <div style="clear: right"></div>
+                <form action="#">
+                    <!-- Checkout Place order starts -->
+                    <fieldset class="checkout-step-1 px-0">
+                        <section id="place-order" class="list-view product-checkout">
+                            <div class="checkout-items">
+
+                                <div class="card ecommerce-card">
+                                    <div class="card-content">
+                                        <div class="item-img text-center">
+                                            <img class="img-fluid" src="../../../app-assets/images/Project/steak.png"
+                                                alt="img-placeholder" height="100" width="120">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="item-name">
+
+                                                <span>สเต็กแซลมอล</span>
+                                                <p class="item-company"> <span class="company-name"
+                                                        style="color: #FF0000">อาหารคาว</span></p>
+                                            </div>
+                                            <!-- <div class="item-quantity">
+                                                <p class="quantity-title">Quantity</p>
+                                                <div class="input-group quantity-counter-wrapper">
+                                                    <input type="text" class="quantity-counter" value="1">
+                                                </div>
+                                            </div> -->
+                                            <!-- <p class="item-description">
+                                                สเต็กเนื้อแซลมอลย่าง พร้อมเครื่องเคียง <br>
+                                                #ปลา #สเต็ก #อาหารคาว #ย่าง #เครื่องเคียง #แซลมอน
+
+                                            </p> -->
+                                            <!-- tag รายการอาหาร -->
+                                            <p class="item-description">
+                                                <label><b>เวลา: </b> 10:24 น. </label>
+                                                <!-- <label><b>หมายเหตุ: </b> ไม่ใส่พริกไทย </label> <br> -->
+
+                                            </p>
+
+                                            <div class="item-name">
+                                                <p class="item-company">สถานะอาหาร <span class="company-name"
+                                                        style="font-size:15px; color: red; "> ได้รับรายการ
+                                                    </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="item-options text-center" style="background-color: red">
+                                            <div class="item-wrapper">
+
+                                                <div class="item-cost">
+                                                    <h6 class="item-price" style="color: white">
+                                                        ฿99 X 1 </h6>
+
+                                                </div>
+                                            </div>
+                                            <div class="wishlist remove-wishlist">
+                                                <i class="feather icon-x align-middle "></i> ยกเลิก
+                                            </div>
+                                            <!-- <div class="cart remove-wishlist">
+                                                <i class="fa fa-heart-o mr-25"></i> Wishlist
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card ecommerce-card">
+                                    <div class="card-content">
+                                        <div class="item-img text-center">
+                                            <img class="img-fluid" src="../../../app-assets/images/Project/cupcake.png"
+                                                alt="img-placeholder" height="100" width="100">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="item-name">
+
+                                                <span> คัพเค้ก</span>
+                                                <p class="item-company"> <span class="company-name"
+                                                        style="color: #229954">อาหารหวาน</span></p>
+                                            </div>
+                                            <!-- <div class="item-quantity">
+                                                    <p class="quantity-title">Quantity</p>
+                                                    <div class="input-group quantity-counter-wrapper">
+                                                        <input type="text" class="quantity-counter" value="1">
+                                                    </div>
+                                                </div> -->
+                                            <!-- <p class="item-description">
+                                                คัพเค้กวานิลา <br>
+                                                #ขนม #หวาน #อาหารหวาน #เค้ก #วานิลา #คัพเค้ก
+                                            </p> -->
+                                            <!-- tag รายการอาหาร -->
+                                            <p class="item-description">
+                                                <!-- <label><b>หมายเหตุ: </b> </label> <br> -->
+                                                <label><b>เวลา: </b> 10:15 น. </label>
+
+
+                                            </p>
+                                            <div class="item-name">
+                                                <p class="item-company">สถานะอาหาร <span class="company-name"
+                                                        style="font-size:15px; color: #ffc107"> กำลังทำรายการ </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item-options text-center" style="background-color: #ffc107">
+                                            <div class="item-wrapper">
+
+                                                <div class="item-cost">
+                                                    <h6 class="item-price" style="color: white">
+                                                        ฿39 X 1</h6>
+
+                                                </div>
+                                            </div>
+                                            <div class="wishlist remove-wishlist feather icon-check">
+                                                <i></i> สำเร็จ
+                                            </div>
+                                            <!-- <div class="cart remove-wishlist">
+                                                    <i class="fa fa-heart-o mr-25"></i> Wishlist
+                                                </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card ecommerce-card">
+                                    <div class="card-content">
+                                        <div class="item-img text-center">
+                                            <img class="img-fluid"
+                                                src="../../../app-assets/images/Project/orangeJuice.png"
+                                                alt="img-placeholder" height="110" width="60">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="item-name">
+
+                                                <span> น้ำส้ม</span>
+                                                <p class="item-company"> <span class="company-name"
+                                                        style="color: #0000FF">เครื่องดื่ม</span></p>
+                                            </div>
+                                            <!-- <div class="item-quantity">
+                                                        <p class="quantity-title">Quantity</p>
+                                                        <div class="input-group quantity-counter-wrapper">
+                                                            <input type="text" class="quantity-counter" value="1">
+                                                        </div>
+                                                    </div> -->
+                                            <!-- <p class="item-description">
+                                                น้ำส้มแท้ 100% <br> #เครื่องดื่ม #น้ำส้ม #ส้ม #น้ำ #หวาน
+
+                                            </p> -->
+                                            <!-- tag รายการอาหาร -->
+                                            <p class="item-description">
+                                                <!-- <label><b>หมายเหตุ: </b>หวานน้อย </label> <br> -->
+                                                <label><b>เวลา: </b> 10:14 น. </label>
+
+                                            </p>
+                                            <div class="item-name">
+                                                <p class="item-company"> สถานะอาหาร <span class="company-name"
+                                                        style="font-size: 15px; color: #1BC250"> รายการสำเร็จ
+                                                    </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="item-options text-center" style="background-color: #1BC250">
+                                            <div class="item-wrapper">
+
+                                                <div class="item-cost">
+                                                    <h6 class="item-price" style="color: white; margin-top: 50px;">
+                                                        ฿49 X 2 </h6>
+
+                                                </div>
+                                            </div>
+                                            <!-- <div class="wishlist remove-wishlist">
+                                                <i class="feather icon-x align-middle "></i> ยกเลิก
+                                            </div> -->
+                                            <!-- <div class="cart remove-wishlist">
+                                                        <i class="fa fa-heart-o mr-25"></i> Wishlist
+                                                    </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card ecommerce-card">
+                                    <div class="card-content">
+                                        <div class="item-img text-center">
+                                            <img class="img-fluid" src="../../../app-assets/images/Project/cupcake.png"
+                                                alt="img-placeholder" height="100" width="100">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="item-name">
+
+                                                <span> คัพเค้ก</span>
+                                                <p class="item-company"> <span class="company-name"
+                                                        style="color: #229954">อาหารหวาน</span></p>
+                                            </div>
+                                            <!-- <div class="item-quantity">
+                                                        <p class="quantity-title">Quantity</p>
+                                                        <div class="input-group quantity-counter-wrapper">
+                                                            <input type="text" class="quantity-counter" value="1">
+                                                        </div>
+                                                    </div> -->
+                                            <!-- <p class="item-description">
+                                                คัพเค้กวานิลา <br>
+                                                #ขนม #หวาน #อาหารหวาน #เค้ก #วานิลา #คัพเค้ก
+                                            </p> -->
+                                            <!-- tag รายการอาหาร -->
+                                            <p class="item-description">
+                                                <!-- <label><b>หมายเหตุ: </b> </label> <br> -->
+                                                <label><b>เวลา: </b> 10:49 น. </label>
+
+
+                                            </p>
+                                            <div class="item-name">
+                                                <p class="item-company">สถานะอาหาร <span class="company-name"
+                                                        style="font-size: 15px; color: #1BC250"> รายการสำเร็จ
+                                                    </span></p>
+                                            </div>
+                                        </div>
+                                        <div class="item-options text-center" style="background-color: #1BC250">
+                                            <div class="item-wrapper">
+
+                                                <div class="item-cost">
+                                                    <h6 class="item-price" style="color: white;margin-top: 50px;">
+                                                        ฿39 X 1</h6>
+
+                                                </div>
+                                            </div>
+                                            <!-- <div class="wishlist remove-wishlist">
+                                                    <i class="feather icon-x align-middle "></i> ยกเลิก
+                                                </div> -->
+                                            <!-- <div class="cart remove-wishlist">
+                                                        <i class="fa fa-heart-o mr-25"></i> Wishlist
+                                                    </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="checkout-options">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-body">
+                                            <!-- <p class="options-title">Options</p>
+                                            <div class="coupons">
+                                                <div class="coupons-title">
+                                                    <p>Coupons</p>
+                                                </div>
+                                                <div class="apply-coupon">
+                                                    <p>Apply</p>
+                                                </div>
+                                            </div>
+                                            <hr> -->
+                                            <div class="price-details">
+                                                <p>รายละเอียดราคา</p>
+                                            </div>
+                                            <div class="detail">
+                                                <div class="detail-title">
+                                                    หมายเลขใบเสร็จ
+                                                </div>
+                                                <div class="detail-amt">
+                                                    0001
+                                                </div>
+                                            </div>
+                                            <div class="detail">
+                                                    <div class="detail-title">
+                                                        จำนวน (รายการ)
+                                                    </div>
+                                                    <div class="detail-amt">
+                                                        4
+                                                    </div>
+                                                </div>
+
+                                            <!-- <div class="detail">
+                                                <div class="detail-title">
+                                                    ราคารวม
+                                                </div>
+                                                <div class="detail-amt">
+                                                    ฿236
+                                                </div>
+                                            </div> -->
+                                            <!-- <div class="detail">
+                                                <div class="detail-title">
+                                                    ส่วนลด
+                                                </div>
+                                                <div class="detail-amt discount-amt">
+                                                    -0฿
+                                                </div>
+                                            </div> -->
+                                            
+
+                                            <!-- <div class="detail">
+                                                <div class="detail-title">
+                                                    ค่าบริการ
+                                                </div>
+                                                <div class="detail-amt discount-amt">
+                                                    ไม่มีค่าบริการ
+                                                </div>
+                                            </div> -->
+                                            <hr>
+                                            <div class="detail">
+                                                <div class="detail-title detail-total">ยอดรวม</div>
+                                                <div class="detail-amt total-amt">฿236</div>
+                                            </div>
+                                            <!-- <div class="btn btn-primary btn-block place-order feather icon-credit-card"
+                                                sty>
+                                                ชำระเงิน</div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </fieldset>
+                    <!-- Checkout Place order Ends -->
+
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <span class="float-md-right d-none d-md-block">COPYRIGHT &copy; 2019 <a href="https://www.zeevsoft.com/"
+                target="_blank"> ZeevSoft</a> All rights Reserved
+            <i class="feather icon-heart pink"></i></span>
+        <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="feather icon-arrow-up"></i></button>
+        </p>
+    </footer>
+    <!-- END: Footer-->
+
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="../../../app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+    <!-- BEGIN: Page Vendor JS-->
+    <script src="../../../app-assets/vendors/js/forms/spinner/jquery.bootstrap-touchspin.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/jquery.steps.min.js"></script>
+    <script src="../../../app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
+    <script src="../../../app-assets/vendors/js/extensions/toastr.min.js"></script>
+    <!-- END: Page Vendor JS-->
+
+    <!-- BEGIN: Theme JS-->
+    <script src="../../../app-assets/js/core/app-menu.js"></script>
+    <script src="../../../app-assets/js/core/app.js"></script>
+    <script src="../../../app-assets/js/scripts/components.js"></script>
+    <!-- END: Theme JS-->
+
+    <!-- BEGIN: Page JS-->
+    <script src="../../../app-assets/js/scripts/pages/app-ecommerce-shop.js"></script>
+    <!-- END: Page JS-->
+
+</body>
+<!-- END: Body-->
+
+</html>
